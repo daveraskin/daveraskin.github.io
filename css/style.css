@@ -1,0 +1,146 @@
+
+body, html {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: rgb(236,236,236);
+  }
+.ng-scope{
+  background-color: rgba(32,32,32);
+}
+.backgroundContainer{
+  width:100%;
+  height: 100%;
+  position:absolute;
+  z-index: -10;
+  background-color: black;
+}
+main {
+    flex: 1 0 auto;
+  }
+
+.brand-logo{
+  margin-left: 20px;
+}
+#footer{
+  color:rgb(60,60,60);
+}
+#bandSpan > a {
+  color: black;
+  margin-left: -5px;
+}
+#footerBlock{
+  background-color: black;
+}
+#footer > .col > a {
+  color:rgb(60,60,60);
+}
+#headContain{
+  min-height:100vh;
+  width:100%;
+  background-color: rgba(15,15,22,.5);
+ /*border-bottom-left-radius: 1000px;
+  border-bottom-right-radius: 1000px;*/
+}
+#DaveRaskin{
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: .5s;
+}
+.btn{
+  margin:10px;
+  margin-top: 30px;
+}
+h2, h3, h4, h5, h6{
+  color:white;
+  margin: 0;
+}
+h1{
+  color:white;
+  font-size: 100px
+}
+footer.page-footer{
+  margin-top:0 ;
+  padding-top:0 ;
+}
+#developerRow{
+  margin-bottom: 10px;
+}
+.row{
+  width:100%;
+}
+#big{
+  height:100%;
+}
+.valign{
+  width:100%;
+}
+.mainContainer{
+  min-height: 100vh;
+
+}
+md-card{
+  padding-left:10px;
+  padding-right:10px;
+  border-top:25%;
+}
+#bowdoin{
+  color:inherit;
+}
+#siprmnchPic{
+  width:100%;
+  margin-right: 20px;
+  border: 3px dotted rgb(193,53,0);
+}
+#daysieChainPic{
+  width:100%;
+  margin-left: 20px;
+  border: 3px dotted rgb(193,53,0);
+}
+.ng-enter{
+   -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+   -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+#sutula{
+  color:white;
+}
+md-bottom-sheet {
+   -webkit-animation-duration: 0s !important;
+  animation-duration: 0s !important;
+}
+
+
+/*.ng-leave{
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}*/
+
+#fakeLink {
+    color: black;
+    cursor: pointer;
+}
+#first{
+  background-image: url("../images/dave.jpeg");
+  background-size: cover;
+  height:100%;
+  /*border-bottom-left-radius: 1000px;
+  border-bottom-right-radius: 1000px;*/
+}
+
+#aboutCard{
+  background-color:rgba(255,255,255,.8);
+  position:absolute;
+  margin-top:80px;
+  width:inherit;
+}
+.spaceMaker{
+  min-height:67px;
+}
+@media (max-width: 600px) {
+  #firstParagraph{
+    padding-top:35px;
+  }
+}
