@@ -16,7 +16,8 @@ angularApp.config(['$routeProvider', '$locationProvider', function($routeProvide
         controller: "mainController"
     })
     .when('/contact', {
-        templateUrl: "views/contact.html"
+        templateUrl: "views/contact.html",
+        controller: 'mainController'
     })
     .otherwise('/404', {
         templateUrl: 'views/404.html'
