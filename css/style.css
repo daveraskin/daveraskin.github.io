@@ -172,6 +172,10 @@ md-bottom-sheet {
   height:100%;
 }
 
+.projectCard {
+  background-color: rgba(255, 255, 255, .8);
+}
+
 .projectPage {
   background-image: url("../images/dave.jpeg");
   background-size: cover;
@@ -180,7 +184,7 @@ md-bottom-sheet {
 }
 
 #aboutCard {
-  background-color:rgba(255,255,255,.8);
+  background-color: rgba(255, 255, 255, .8);
   position:absolute;
   margin-top:80px;
   width:inherit;
