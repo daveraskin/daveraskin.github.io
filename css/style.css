@@ -4,117 +4,141 @@ body, html {
     min-height: 100vh;
     flex-direction: column;
     background-color: rgb(225, 225, 225);
-  }
-.ng-scope{
+}
+
+.ng-scope {
   background-color: rgba(32,32,32);
 }
-.backgroundContainer{
+
+.backgroundContainer {
   width:100%;
   height: 100%;
   position:absolute;
   z-index: -10;
   background-color: black;
 }
+
 main {
     flex: 1 0 auto;
-  }
+}
 
-.brand-logo{
+.brand-logo {
   margin-left: 20px;
 }
-#footer{
+
+#footer {
   color:rgb(60,60,60);
 }
+
 #bandSpan > a {
   color: black;
   margin-left: -5px;
 }
-#footerBlock{
+
+#footerBlock {
   background-color: black;
 }
+
 #footer > .col > a {
   color:rgb(60,60,60);
 }
-#headContain{
+
+#headContain {
   min-height:100vh;
   width:100%;
   background-color: rgba(15,15,22,.5);
- /*border-bottom-left-radius: 1000px;
-  border-bottom-right-radius: 1000px;*/
 }
-#DaveRaskin{
+
+#DaveRaskin {
   -webkit-animation-duration: 2s;
   -webkit-animation-delay: .5s;
 }
-#daveSpan > a{
+
+#daveSpan > a {
   color: black;
 }
+
 .btn {
   margin:10px;
   margin-top: 30px;
 }
-h2, h3, h4, h5, h6{
+
+h2, h3, h4, h5, h6 {
   color:white;
   margin: 0;
 }
-h1{
+
+h1 {
   color:white;
   font-size: 100px
 }
-footer.page-footer{
+
+footer.page-footer {
   margin-top:0 ;
   padding-top:0 ;
 }
-#developerRow{
+
+#developerRow {
   margin-bottom: 10px;
 }
-.row{
+
+.row {
   width:100%;
 }
-#big{
+
+#big {
   height:100%;
 }
-.valign{
+
+.valign {
   width:100%;
 }
-.mainContainer{
+
+.mainContainer {
   min-height: 100vh;
 
 }
-md-card{
+
+md-card {
   padding-left:10px;
   padding-right:10px;
   border-top:25%;
 }
-#bowdoin{
+
+#bowdoin {
   color:inherit;
 }
+
 #WODPic {
   width: 100%;
   border: 3px dotted rgb(193, 53, 0);
 }
-#siprmnchPic{
+
+#siprmnchPic {
   width:100%;
   margin-right: 20px;
   border: 3px dotted rgb(193, 53, 0);
 }
-#daysieChainPic{
+
+#daysieChainPic {
   width:100%;
   border: 3px dotted rgb(193, 53, 0);
 }
-.ng-enter{
+
+.ng-enter {
    -webkit-animation-duration: 1.5s;
   animation-duration: 1.5s;
    -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
-#sutula{
+
+#sutula {
   color:white;
 }
+
 md-bottom-sheet {
    -webkit-animation-duration: 0s !important;
   animation-duration: 0s !important;
-  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .valign-wrapper {
@@ -136,14 +160,23 @@ md-bottom-sheet {
   margin-left: auto;
   margin-right: auto;
 }
+
 #fakeLink {
     color: black;
     cursor: pointer;
 }
-#first{
+
+#first {
   background-image: url("../images/dave.jpeg");
   background-size: cover;
   height:100%;
+}
+
+.projectPage {
+  background-image: url("../images/dave.jpeg");
+  background-size: cover;
+  height: 100vh;
+  overflow: auto;
 }
 
 #aboutCard {
@@ -153,9 +186,10 @@ md-bottom-sheet {
   width:inherit;
 }
 
-.spaceMaker{
+.spaceMaker {
   min-height:67px;
 }
+
 @media (max-width: 600px) {
   #firstParagraph{
     padding-top:35px;
