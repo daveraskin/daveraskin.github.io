@@ -121,6 +121,9 @@ md-bottom-sheet {
   text-decoration-color: rgba(0, 0, 0, .3);
 }
 
+.descriptionParagraph {
+  padding: 0 5px;
+}
 #fakeLink {
     color: black;
     cursor: pointer;
