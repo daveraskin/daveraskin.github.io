@@ -156,6 +156,10 @@ md-bottom-sheet {
   text-align: justify;
 }
 
+  .descriptionParagraph > a {
+    color: black;
+  }
+
 .projectImage {
   margin-left: auto;
   margin-right: auto;
