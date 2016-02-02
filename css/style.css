@@ -126,8 +126,6 @@ md-bottom-sheet {
   background-image: url("../images/dave.jpeg");
   background-size: cover;
   height:100%;
-  /*border-bottom-left-radius: 1000px;
-  border-bottom-right-radius: 1000px;*/
 }
 
 #aboutCard{
