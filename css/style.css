@@ -46,7 +46,10 @@ main {
   -webkit-animation-duration: 2s;
   -webkit-animation-delay: .5s;
 }
-.btn{
+#daveSpan > a{
+  color: black;
+}
+.btn {
   margin:10px;
   margin-top: 30px;
 }
@@ -111,7 +114,12 @@ md-bottom-sheet {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-
+.aboutLink {
+  color: black;
+  text-decoration: underline;
+  -moz-text-decoration-color: rgba(0, 0, 0, .3);
+  text-decoration-color: rgba(0, 0, 0, .3);
+}
 
 #fakeLink {
     color: black;
@@ -128,10 +136,6 @@ md-bottom-sheet {
   position:absolute;
   margin-top:80px;
   width:inherit;
-}
-
-.aboutParagraph > a {
-  color: white;
 }
 
 .spaceMaker{
