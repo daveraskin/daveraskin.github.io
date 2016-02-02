@@ -173,7 +173,7 @@ md-bottom-sheet {
 }
 
 .projectCard {
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, .8) !important; /*marked important to override default theme*/
 }
 
 .projectPage {
