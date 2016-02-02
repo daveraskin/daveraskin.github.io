@@ -89,22 +89,25 @@ md-card{
 #bowdoin{
   color:inherit;
 }
+#WODPic {
+  width: 100%;
+  border: 3px dotted rgb(193, 53, 0);
+}
 #siprmnchPic{
   width:100%;
   margin-right: 20px;
-  border: 3px dotted rgb(193,53,0);
+  border: 3px dotted rgb(193, 53, 0);
 }
 #daysieChainPic{
   width:100%;
-  margin-left: 20px;
-  border: 3px dotted rgb(193,53,0);
+  border: 3px dotted rgb(193, 53, 0);
 }
-.ng-enter{
+/*.ng-enter{
    -webkit-animation-duration: 1.5s;
   animation-duration: 1.5s;
    -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
-}
+}*/
 #sutula{
   color:white;
 }
@@ -123,6 +126,11 @@ md-bottom-sheet {
 
 .descriptionParagraph {
   padding: 0 15px;
+}
+
+.projectImage {
+  margin-left: auto;
+  margin-right: auto;
 }
 #fakeLink {
     color: black;
