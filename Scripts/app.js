@@ -72,14 +72,6 @@ angularApp.controller('mainController', ['$scope', '$routeParams', 'localStorage
 
         })
     }
-    $scope.openDialog = function(){
-        $mdDialog.show({
-            template: '<md-dialog><md-card><md-card-content>here is th informations</md-card-content></md-card></md-dialog>',
-            controller: 'otherController',
-            clickOutsideToClose: true,
-            escapeToClose: true
-        })
-    }
 
 
 }])
