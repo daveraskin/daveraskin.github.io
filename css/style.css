@@ -183,6 +183,10 @@ md-bottom-sheet {
   overflow: auto;
 }
 
+.projectRow {
+  height: 100%;
+}
+
 #aboutCard {
   background-color: rgba(255, 255, 255, .8);
   position:absolute;
