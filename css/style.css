@@ -3,7 +3,7 @@ body, html {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background-color: rgb(236,236,236);
+    background-color: rgb(0, 0, 0);
   }
 .ng-scope{
   background-color: rgba(32,32,32);
@@ -102,12 +102,12 @@ md-card{
   width:100%;
   border: 3px dotted rgb(193, 53, 0);
 }
-/*.ng-enter{
+.ng-enter{
    -webkit-animation-duration: 1.5s;
   animation-duration: 1.5s;
    -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
-}*/
+}
 #sutula{
   color:white;
 }
