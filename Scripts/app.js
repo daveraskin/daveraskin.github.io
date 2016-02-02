@@ -67,13 +67,7 @@ angularApp.controller('mainController', ['$scope', '$routeParams', 'localStorage
         }
     $scope.openBottomSheet = function(){
         $mdBottomSheet.show({
-            template: '<md-bottom-sheet>' +
-                      '<div class="container">' +
-                       '<p class="flow-text center-align">' +
-                       'JavaScript, Ruby, HTML5, CSS3, Rails, Sails.js, Angular JS, Express.js, Postgres, MongoDB, Sequelize, Active Record, jQuery, Git/GitHub, Heroku, Bootstrap, MaterializeCSS, Angular Material, Twilio, Bcrypt.' +
-                       '</p>' +
-                       '</div>' +
-                       '</md-bottom-sheet>',
+            templateUrl: '../views/partials/languages.html',
             controller: 'mainController'
 
         })
