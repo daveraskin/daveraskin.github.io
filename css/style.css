@@ -176,12 +176,12 @@ md-bottom-sheet {
   background-color: rgba(255, 255, 255, .8) !important; /*marked important to override default theme*/
 }
 
-/*.projectPage {
+.projectPage {
   background-image: url("../images/dave.jpeg");
   background-size: cover;
   height: 100vh;
-  overflow: auto;
-}*/
+  overflow: scroll;
+}
 
 #aboutCard {
   background-color: rgba(255, 255, 255, .8);
