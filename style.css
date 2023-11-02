@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.landingPage {
+    padding: 20px;
+    background-image: url('./water2.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.headshot {
+    border-radius: 200px;
+    max-height: 400px;
+    justify-self: center;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.links {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-width: 350px;
+    max-width: 100%;
+    padding-top: 30px;
+    & > span {
+        & > a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+#portfolio {
+    min-height: 100vh;
+    color: black;
+}
+
+.undecoratedLink {
+    color: black;
+    text-decoration: none;
+}
