@@ -1,0 +1,23 @@
+{
+  "name": "daveraskin.github.io",
+  "version": "1.0.0",
+  "description": "Github Pages portfolio site for Dave Raskin",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daveraskin/daveraskin.github.io.git"
+  },
+  "author": "Dave Raskin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daveraskin/daveraskin.github.io/issues"
+  },
+  "homepage": "https://github.com/daveraskin/daveraskin.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "node-sass": "^9.0.0"
+  }
+}
